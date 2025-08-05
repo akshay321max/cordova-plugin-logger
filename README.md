@@ -5,7 +5,7 @@ A sample Cordova plugin written in Swift to demonstrate internal logging with op
 ## Installation
 
 ```bash
-cordova plugin add https://github.com/your-org/cordova-plugin-logger.git
+cordova plugin add https://github.com/akshay321max/cordova-plugin-logger.git
 ```
 
 ## Usage
