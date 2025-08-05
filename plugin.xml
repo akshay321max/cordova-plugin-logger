@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-logger" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>Logger</name>
+  <description>Internal Logger Plugin using Swift</description>
+  <license>MIT</license>
+  <keywords>log, swift, ios</keywords>
+
+  <platform name="ios">
+    <source-file src="src/ios/Logger.swift" />
+    <config-file target="*-Debug.plist" parent="SwiftVersion">
+      <string>5.0</string>
+    </config-file>
+    <config-file target="*-Release.plist" parent="SwiftVersion">
+      <string>5.0</string>
+    </config-file>
+    <preference name="UseSwiftLanguageVersion" value="5.0" />
+    <framework src="MyPrivatePod" type="podspec" spec="~> 1.2.0" />
+  </platform>
+</plugin>
